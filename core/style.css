@@ -61,7 +61,7 @@ body {
 
 
 header {
-    background-color: #FFDCF4;
+    background-color: #99cde9;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -131,7 +131,7 @@ header {
 }
 
 .btn {
-    background-color: #DABFDE;
+    background-color: #aee3db;
     color: #333;
     display: inline-block;
     padding: 10px 20px;
@@ -246,6 +246,59 @@ header {
     font-size: 18px;
     font-weight: 600;
     color: #333;
+}
+
+
+/* Style de base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #FFDCF4;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    color: #b192b6;
+}
+
+.slider-container {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    background-color: #FFDCF4;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.description h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.description p {
+    font-size: 16px;
+    color: #555;
+}
+.round-image {
+    border-radius: 50%;
 }
 
 
